@@ -1,9 +1,7 @@
 {
-  "name": "test-plugin",
+  "name": "example-plugin",
   "version": "1.0.0",
   "type": "module",
-  "main": "./dist/test-plugin.js",
-  "exports": "./dist/test-plugin.js",
   "scripts": {
     "build": "node build.mjs",
     "dev": "OUT_DIR=../ npm run build"
